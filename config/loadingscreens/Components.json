@@ -1,0 +1,73 @@
+[
+  {
+    "size": {
+      "width": 0,
+      "height": 0,
+      "relWidth": 1.0,
+      "relHeight": 1.0
+    },
+    "color": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "type": "COLOR",
+    "position": {
+      "anchor": "TOP_LEFT",
+      "horizontalAlignment": "LEFT",
+      "verticalAlignment": "TOP",
+      "x": 0,
+      "z": 0,
+      "relX": 0.0,
+      "relZ": 0.0
+    }
+  },
+  {
+    "texturePath": "minecraft:textures/painting/fighters.png",
+    "tile": false,
+    "tileWidth": 32,
+    "tileHeight": 32,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "relWidth": 0.8,
+      "relHeight": 0.8
+    },
+    "type": "TEXTURE",
+    "position": {
+      "anchor": "CENTER",
+      "horizontalAlignment": "CENTER",
+      "verticalAlignment": "CENTER",
+      "x": 0,
+      "z": 0,
+      "relX": 0.0,
+      "relZ": 0.0
+    }
+  },
+  {
+    "textOptions": [
+      [
+        "\\u00A7eTip:",
+        "To configure Loading Screens, navigate from the main menu to the mod list,",
+        "select the Loading Screens mod, hit the config button and use the gui"
+      ]
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "type": "TEXT",
+    "position": {
+      "anchor": "BOTTOM_LEFT",
+      "horizontalAlignment": "LEFT",
+      "verticalAlignment": "BOTTOM",
+      "x": 10,
+      "z": -10,
+      "relX": 0.0,
+      "relZ": 0.0
+    }
+  }
+]

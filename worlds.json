@@ -1,0 +1,11 @@
+{
+  "worlds": [
+    {
+      "name": "New World",
+      "source": "E:\\MinecraftTester2\\saves\\New World",
+      "destination": "E:\\MinecraftTester2\\backup\\saves\\saves\\New World",
+      "lastChanged": "2024-06-30T23:05:31",
+      "backup": false
+    }
+  ]
+}

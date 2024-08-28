@@ -1,0 +1,64 @@
+
+[PebblesSpawn]
+	#Determine the likelihood of pebbles spawning in new chunks
+	"Pebble spawn amount ( 5 is greatest, 0 is disabled)" = 5.0
+
+[AuburnTreesSpawn]
+	#Determines the spawn chance of auburn trees in new chunks
+	"Auburn Tree Spawn Amount ( 5 is greatest, 0 is disabled)" = 5.0
+
+[WhiteOakTreeSpawn]
+	#Determines the spawn chance of white oak trees in new chunks
+	"White Oak Tree Spawn Amount ( 5 is greatest, 0 is disabled)" = 5.0
+
+[PalmTreeSpawn]
+	#Determines the spawn chance of palm trees in new chunks
+	"Palm Tree Spawn Amount ( 5 is greatest, 0 is disabled)" = 5.0
+
+[TreantSpawn]
+	#Determines the likelihood to encounter a Treant
+	"Treant Spawn rate (1 is normal, 2 is doubled, and 3 is tripled)" = 1.0
+
+[KingcrabSpawn]
+	#Determines the likelihood to encounter the King Hermit
+	"King Hermit Spawn rate (1 is normal, 2 is doubled, and 3 is tripled)" = 1.0
+
+[MummySpawn]
+	#Determines the likelihood to encounter a Mummy
+	"Mummy Spawn rate (1 is normal, 2 is doubled, and 3 is tripled)" = 1.0
+
+[BirchSpawn]
+	#Determines the spawn chance of tall birch trees in new chunks
+	"Tall Birch Tree Spawn Amount ( 5 is greatest, 0 is disabled)" = 5.0
+
+[TaigaSpawn]
+	#Determines the spawn chance of tall taiga trees in new chunks
+	"Tall Taiga Tree Spawn Amount ( 5 is greatest, 0 is disabled)" = 5.0
+
+[Baobabspawn]
+	#Determines the spawn chance of baobab trees in new chunks
+	"Baobab Tree Spawn Amount ( 5 is greatest, 0 is disabled)" = 5.0
+
+[SeaViperSpawn]
+	#Determines the likelihood to encounter a Sea Viper
+	"Sea Viper Spawn rate (1 is normal, 2 is doubled, and 3 is tripled)" = 1.0
+
+[PheonixSpawn]
+	#Determines the likelihood to encounter a Pheonix
+	"Pheonix Spawn rate (1 is normal, 2 is doubled, and 3 is tripled)" = 1.0
+
+[GatorSpawn]
+	#Determines the likelihood to encounter the Vile Gator
+	"Vile Gator Spawn rate (1 is normal, 2 is doubled, and 3 is tripled)" = 1.0
+
+[FrostGolemSpawn]
+	"Frost Golem Spawn rate (1 is normal, 2 is doubled, and 3 is tripled)" = 1.0
+
+[BugSpawn]
+	#Determines if butterflies and fireflies will spawn
+	"entering true means enabled, false means disabled" = "true"
+
+[VariantMobSpawns]
+	#Determines if custom mob variants will spawn!
+	"entering true means enabled, false means disabled" = "true"
+

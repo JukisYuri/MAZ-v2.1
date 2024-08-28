@@ -1,0 +1,12 @@
+
+#Client-only settings
+[client]
+	#Render Rage Overlay on experience bar
+	renderRageOverlay = true
+	#Negative offsets to left side, positive to right
+	#Range: > -2147483648
+	offsetX = 0
+	#Negative offsets to up, positive to down
+	#Range: > -2147483648
+	offsetY = 0
+

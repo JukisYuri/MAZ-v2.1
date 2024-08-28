@@ -1,0 +1,50 @@
+Blender 3.4 Tutorial for creating capes (you will need to install Blender first):
+Open up the "Cloth.blend" file included in the capes folder. In the upper right within the collections you will find a lot of different
+cloth examples that get already used in the game. You can use those as a base for learning.
+Make sure when you model something that everything stays as QUADS. Triangles are allowed however the engine needs the quads to stabilize the
+cloth simulation. Only use triangles for the contours of the cloth shape. UV mapping as usual and make sure that you simply name 
+the texture file the same name as the model file. Only .png is supported right now.
+Now to the more interesting part, how do you fixate points of the cloth simulation so it doesn't fall to the ground? Vertex Paint!
+Every vertex has a vertex color. Only the red and green component is important. When the red component is smaller than 1 the vertex is fixed
+otherwise it is loose. The green component controls how much it tries to retain its shape. Green value of 1.0 means the feature is disabled.
+Everything between 0.0 and 0.99 enable the shape retaining feature. 0.0 means no shape retaining, 0.99 means full shape retaining. 
+You can see that on the examples by selecting them, going into the "Shader Editor" and move the "Factor" slider under "Mix" to 1.0.
+To select individual vertices check "Vertex Selection" next to the Vertex Paint selection (in the top left corner). Now select individual
+vertices by Shift left clicking them. Then select the appropriate color in the eastern panel (depending on if the vertex should be fixed
+or not) and hit Shift + K to color the selected vertices. To select all vertices simply press "A" and to deselect everything "Alt" + "A".
+If you have any questions left feel free to ask them on my discord: https://discord.gg/3ARYUrpdRg
+
+Exporting the model from Blender:
+First we need to apply the transformations to the model. Select it -> "Ctrl" + "A" -> All Transforms. Now we can export the model.
+Select File -> Export -> Collada (.dae)
+Make sure to set this up correctly. On the right side there are exporting options. Check "Selection Only". Check "Apply" under "Global Orientation".
+Press "Z" under "Forward Axis". Press "-Y" under "Up Axis". Go to the Geom Tab and uncheck the "Triangulate" box. Now enter a
+filename and press "Export COLLADA". 
+
+Make sure to also put a texture file + rules file with the same name in the cloth_local folder (.png + .rules).
+
+Rules file:
+You can find examples of them in <minecraft installation folder>/.physics_mod_cache/cloth!
+
+Here is how it works:
+category: Basically the name of the cloth category. No more than 1 of the same category can be equipped. Create your own category or use existing ones.
+parts: the player model part which the cloth gets attached to (make sure while modelling that you use the correct part as a reference, they are in the player collection)
+specialTexture: use the player skin (minecraft:playerskin) or any other minecraft texture. Only use that if you need minecraft textures. Make sure to still have a 
+   default .png file as texture
+breaks: the category with which it isn't compatible (for example a coat breaks with a skirt so for the coat.rules you would put "Skirts" into the breaks part)
+hideArmor: hides the specific armor pieces when this cloth is worn (allowed values: feet, legs, chest, head)
+hideParts: makes parts of the player invisible while this cloth part is worn
+ignoreParts: ignores those parts in the cloth collision detection
+
+Allowed values for parts/hideParts/ignoreParts: head, hat, body, jacket, left_sleeve, left_arm, right_sleeve, right_arm, left_leg, left_pants, right_leg, right_pants
+
+This is an example of a rules file:
+{
+  "category": "Body",
+  "parts": [ "body" ],
+  "specialTexture": "minecraft:playerskin",
+  "breaks": [ "Back", "Accessories", "Skirts" ],
+  "hideArmor": [ "chest" ],
+  "hideParts": [ "right_arm", "right_sleeve" ],
+  "ignoreParts": [ "body", "jacket", "left_sleeve", "left_arm", "right_sleeve", "right_arm", "head", "hat", "left_leg", "left_pants", "right_leg", "right_pants" ]
+}

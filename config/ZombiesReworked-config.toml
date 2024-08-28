@@ -1,0 +1,42 @@
+
+["Items that the zombies can use"]
+	#Default true
+	"Should the zombies use totems of undying?" = true
+	#Default true
+	"Should the zombies use flint and steels?" = true
+	#Default true
+	"Should the zombies use ender pearls?" = true
+	#Default true
+	"Should the zombies use shields?" = true
+	#Default true
+	"Should the zombies use spyglasses?" = true
+
+[Zombifications]
+	#Default true
+	"Should the player convert after getting killed by a zombie?" = true
+	#Default true
+	"Should the villager convert after getting killed by a zombie?" = true
+	#Default 0.2
+	#Range: 0.05 ~ 1.7976931348623157E308
+	"What should be the chance of the player/villager converting to a zombie/zombie villager when getting killed?" = 0.2
+
+["AI Changes for the vanilla zombies"]
+	#Default true
+	"Should the zombies break blocks?" = true
+	#Default true
+	"Should zombies perform small sprints when close to the player?" = true
+	#Default 0.15
+	#Range: 0.05 ~ 0.5
+	"Area of the blocks that the zombies can break, the bigger the number, the more the blocks a mob can destroy in one go" = 0.15
+	#Default true
+	"Should the zombies perform small leaps at the player?" = true
+	#Default true
+	"Should the zombies have accurate-melee range?" = true
+	#Default true
+	"Should zombies be faster when encountering the player at night time?" = true
+	#Default true
+	"Should zombies have upgraded armor and equipment and spawn with it less rarely?" = true
+	#Default 90
+	#Range: 60 ~ 200
+	"Chance of the block breaking on tick, 120 ~= 0,8%" = 120
+

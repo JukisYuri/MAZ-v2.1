@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.4.0 commit date:2022-12-06, commit time:18:46, hash:a95bf1ac01be</authoring_tool>
+    </contributor>
+    <created>2023-02-17T13:06:47</created>
+    <modified>2023-02-17T13:06:47</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Suit_Bow_Tie-mesh" name="Suit Bow Tie">
+      <mesh>
+        <source id="Suit_Bow_Tie-mesh-positions">
+          <float_array id="Suit_Bow_Tie-mesh-positions-array" count="78">-0.03144299 0.1104181 -0.1950977 -0.03144299 0.04753208 -0.1950977 -0.03144299 0.1104181 -0.1322117 -0.03144299 0.04753208 -0.1322117 0.03144299 0.1104181 -0.1950977 0.03144299 0.04753208 -0.1950977 0.03144299 0.1104181 -0.1322117 0.03144299 0.04753208 -0.1322117 -0.1487431 0.1290115 -0.1616221 -0.0263493 0.1031658 -0.1616221 -0.1487431 0.03267502 -0.1616221 -0.0263493 0.05852079 -0.1616221 -0.1491065 0.08084332 -0.1616221 -0.07364094 0.1158046 -0.1616221 -0.0263493 0.08084332 -0.1616221 -0.07364094 0.04588198 -0.1616221 -0.0739603 0.08084332 -0.1616221 0.1513309 0.1290115 -0.1616221 0.0289371 0.1031658 -0.1616221 0.1513309 0.03267502 -0.1616221 0.0289371 0.05852079 -0.1616221 0.1516943 0.08084332 -0.1616221 0.07622873 0.1158046 -0.1616221 0.0289371 0.08084332 -0.1616221 0.07622873 0.04588198 -0.1616221 0.07654809 0.08084332 -0.1616221</float_array>
+          <technique_common>
+            <accessor source="#Suit_Bow_Tie-mesh-positions-array" count="26" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Suit_Bow_Tie-mesh-normals">
+          <float_array id="Suit_Bow_Tie-mesh-normals-array" count="24">-1 0 0 0 0 1 1 0 0 0 0 -1 0 1 0 0 -1 0 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Suit_Bow_Tie-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Suit_Bow_Tie-mesh-map-0">
+          <float_array id="Suit_Bow_Tie-mesh-map-0-array" count="112">0.375 0 0.625 0 0.625 0.25 0.375 0.25 0.375 0.25 0.625 0.25 0.625 0.5 0.375 0.5 0.375 0.5 0.625 0.5 0.625 0.75 0.375 0.75 0.375 0.75 0.625 0.75 0.625 1 0.375 1 0.125 0.5 0.375 0.5 0.375 0.75 0.125 0.75 0.625 0.5 0.875 0.5 0.875 0.75 0.625 0.75 0.5 0.5 1 0.5 1 1 0.5 1 0 0.5 0.5 0.5 0.5 1 0 1 0 0 0.5 0 0.5 0.5 0 0.5 0.5 0 1 0 1 0.5 0.5 0.5 0.5 0.5 0.5 1 1 1 1 0.5 0 0.5 0 1 0.5 1 0.5 0.5 0 0 0 0.5 0.5 0.5 0.5 0 0.5 0 0.5 0.5 1 0.5 1 0</float_array>
+          <technique_common>
+            <accessor source="#Suit_Bow_Tie-mesh-map-0-array" count="56" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Suit_Bow_Tie-mesh-colors-Col" name="Col">
+          <float_array id="Suit_Bow_Tie-mesh-colors-Col-array" count="224">0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 0.9215686 1 1 0 1 1 1 0 1 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 0 1 1 1 0 1 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 0 1 1 1 0 1 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 1 0.9215686 1 1 0 1 1 1 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Suit_Bow_Tie-mesh-colors-Col-array" count="56" stride="4">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+              <param name="A" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Suit_Bow_Tie-mesh-vertices">
+          <input semantic="POSITION" source="#Suit_Bow_Tie-mesh-positions"/>
+        </vertices>
+        <polylist count="14">
+          <input semantic="VERTEX" source="#Suit_Bow_Tie-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Suit_Bow_Tie-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Suit_Bow_Tie-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#Suit_Bow_Tie-mesh-colors-Col" offset="3" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 0 0 1 0 1 1 3 0 2 2 2 0 3 3 2 1 4 4 3 1 5 5 7 1 6 6 6 1 7 7 6 2 8 8 7 2 9 9 5 2 10 10 4 2 11 11 4 3 12 12 5 3 13 13 1 3 14 14 0 3 15 15 2 4 16 16 6 4 17 17 4 4 18 18 0 4 19 19 7 5 20 20 3 5 21 21 1 5 22 22 5 5 23 23 16 3 24 24 14 3 25 25 11 3 26 26 15 3 27 27 12 3 28 28 16 3 29 29 15 3 30 30 10 3 31 31 8 3 32 32 13 3 33 33 16 3 34 34 12 3 35 35 13 3 36 36 9 3 37 37 14 3 38 38 16 3 39 39 25 3 40 40 24 3 41 41 20 3 42 42 23 3 43 43 21 6 44 44 19 6 45 45 24 6 46 46 25 6 47 47 17 7 48 48 21 7 49 49 25 7 50 50 22 7 51 51 22 3 52 52 25 3 53 53 23 3 54 54 18 3 55 55</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Suit_Bow_Tie" name="Suit Bow Tie" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Suit_Bow_Tie-mesh" name="Suit Bow Tie"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

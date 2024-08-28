@@ -1,0 +1,9 @@
+{
+  "category": "Head",
+  "hideArmor": [ "head" ],
+  "specialTexture": "minecraft:playerskin",
+  "hideParts": [ "head", "hat" ],
+  "hideArmor": [ "head" ],
+  "ignoreParts": [ "head", "hat" ],
+  "parts": [ "head" ]
+}

@@ -1,0 +1,40 @@
+{
+  "ability": {
+    "abilities": {
+      "vine": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 10,
+        "stats": {
+          "length": {
+            "minInitialValue": 10.0,
+            "maxInitialValue": 15.0,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_TOTAL",
+            "upgradeModifier": 0.175
+          },
+          "cooldown": {
+            "minInitialValue": 20.0,
+            "maxInitialValue": 30.0,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_TOTAL",
+            "upgradeModifier": -0.1
+          }
+        }
+      }
+    }
+  },
+  "leveling": {
+    "initialCost": 100,
+    "maxLevel": 10,
+    "step": 200
+  },
+  "loot": {
+    "entries": {
+      "alexscaves:chests/caveman_house": 0.1,
+      "[\\w]+:chests\\/[\\w_\\/]*primordial[\\w_\\/]*": 0.1
+    }
+  }
+}

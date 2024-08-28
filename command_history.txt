@@ -1,0 +1,22 @@
+/tp nslinhog
+/datapack list enabled
+/tp nslinhog
+/effect give nslinhog minecraft:instant_damage 9999 255
+/effect clear nslinhog
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/tick rate 1
+/tick rate 20
+/tick rate 2000\
+/tick rate 2000
+/tick rate 20
+/tick freeze
+/tp SDGrey
+/tp nslinhog
+/tp KuroMachi
+/tp nslinhog
+/tick rate 20
+/tp Khoii_NDK
+/tp nslinhog

@@ -1,0 +1,22 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "touhou_little_maid:memorizable_gensokyo": {
+      "viewedEntries": [
+        "touhou_little_maid:maid/maid_base",
+        "touhou_little_maid:maid/spawn_maid"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "irons_spellbooks:iss_guide_book": {
+      "viewedEntries": [
+        "irons_spellbooks:progression/early_game",
+        "irons_spellbooks:spell_books/uncraftable_spell_books"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

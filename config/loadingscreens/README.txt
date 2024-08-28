@@ -1,0 +1,1 @@
+Do not edit the json files manually. Use the mod config gui accessible from the mod menu which itself is accessible from the main menu.

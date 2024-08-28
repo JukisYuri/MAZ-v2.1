@@ -1,0 +1,5 @@
+{
+  "category": "Right Arm",
+  "parts": [ "right_arm" ],
+  "ignoreParts": [ "body", "jacket", "head", "hat" ]
+}

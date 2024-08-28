@@ -1,0 +1,7 @@
+{
+  "category": "Body",
+  "parts": [ "body" ],
+  "breaks": [ "Back", "Accessories", "Skirts" ],
+  "hideArmor": [ "chest" ],
+  "ignoreParts": [ "left_sleeve", "right_sleeve", "right_arm", "left_arm" ]
+}

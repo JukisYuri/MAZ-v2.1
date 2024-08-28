@@ -1,0 +1,60 @@
+#Raids Configurations
+#Controls whether the Shogun spawns in raids, usually set to true
+"Shogun Raid Spawning" = true
+#Controls whether the Samurai spawns in raids, usually set to true
+"Samurai Raid Spawning" = true
+#Controls whether the special Samurai spawns in raids, usually set to true
+"Special Samurai Raid Spawning" = true
+#Controls whether the Guard spawns in raids, usually set to true
+"Guard Raid Spawning" = true
+#Controls whether the Blastioner spawns in raids, usually set to true
+"Blastioner Raid Spawning" = true
+#Controls whether the Royal Guards spawns in raids, usually set to false
+"Royal Guards Raid Spawning" = true
+#Controls whether the Cowboy spawns in raids, usually set to true
+"Cowboy Raid Spawning" = false
+
+[Config]
+	#Combat Configurations
+	#Controls the Samurai ai strength, usually set to 1 
+	#0 = easy, 1 = normal, 2 = hard, 3 = hardest
+	"Samurai ai strength" = 1
+	#Controls the Shogun ai strength, usually set to 1 
+	#0 = easy, 1 = normal, 2 = hard, 3 = hardest
+	"Shogun ai strength" = 1
+	#Controls the Cowboy ai strength, usually set to 1 
+	#0 = easy, 1 = normal, 2 = hard, 3 = hardest
+	"Cowboy ai strength" = 1
+	#Controls the Guard ai strength, usually set to 1 
+	#0 = easy, 1 = normal, 2 = hard, 3 = hardest
+	"Guard ai strength" = 1
+	#Controls the Shogun Attack Damage Multiplier, usually set to 1 
+	#0 = easy, 1 = normal, 2 = hard, 3 = hardest
+	"Shogun Attack Damage Multiplier" = 1
+
+["Raid Wave Member Configuration"]
+	#    Shogun Wave Counts
+	#    Requires a list of no more and less than 8 integers, each corresponding to its respective wave.
+	#
+	"Shogun Wave Count" = [0, 0, 0, 0, 0, 0, 0, 1]
+	#    Samurai Wave Counts
+	#    Requires a list of no more and less than 8 integers, each corresponding to its respective wave.
+	#
+	"Samurai Wave Counts" = [0, 1, 2, 0, 2, 1, 1, 4]
+	#    Guard Wave Counts
+	#    Requires a list of no more and less than 8 integers, each corresponding to its respective wave.
+	#
+	"Guard Wave Counts" = [0, 1, 1, 0, 2, 1, 1, 2]
+	#    Blastioner Wave Counts
+	#    Requires a list of no more and less than 8 integers, each corresponding to its respective wave.
+	#
+	"Blastioner Wave Counts" = [0, 0, 0, 0, 0, 1, 0, 1]
+	#    Knights Wave Counts
+	#    Requires a list of no more and less than 8 integers, each corresponding to its respective wave.
+	#
+	"Royal Guards Wave Counts" = [0, 0, 0, 0, 1, 0, 1, 1]
+	#    Cowboy Wave Counts
+	#    Requires a list of no more and less than 8 integers, each corresponding to its respective wave.
+	#
+	"Cowboy Wave Counts" = [0, 1, 0, 1, 0, 1, 0, 1]
+

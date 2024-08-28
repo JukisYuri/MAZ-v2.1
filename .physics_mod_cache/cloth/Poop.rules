@@ -1,0 +1,6 @@
+{
+  "category": "Head",
+  "parts": [ "head" ],
+  "hideArmor": [ "head" ],
+  "dynamic": false
+}

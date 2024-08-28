@@ -1,0 +1,16 @@
+{
+  "clientToken": "0106089e-6171-43bc-8d93-605022b33763",
+  "accounts": {
+    "eb3e00a2149f4bf99e14a72ea8eeb972": {
+      "username": "JukisYuri",
+      "userID": "JukisYuri",
+      "displayName": "JukisYuri",
+      "uuid": "eb3e00a2149f4bf99e14a72ea8eeb972",
+      "type": "free",
+      "skinType": "tlauncher",
+      "premiumAccount": false
+    }
+  },
+  "selectedAccountUUID": "eb3e00a2149f4bf99e14a72ea8eeb972",
+  "freeAccountUUID": "eb3e00a2149f4bf99e14a72ea8eeb972"
+}

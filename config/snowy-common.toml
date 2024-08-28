@@ -1,0 +1,14 @@
+
+#Snowy config
+[general]
+	#Enable non-overworld biomes
+	enable_non_overworld_biomes = false
+	#Force disabled biomes
+	force_disabled_biomes = []
+	#Force enabled biomes
+	force_enabled_biomes = []
+	#Enable temperature noise
+	enable_temperature_noise = false
+	#Enable constant snow
+	enable_constant_snow = true
+

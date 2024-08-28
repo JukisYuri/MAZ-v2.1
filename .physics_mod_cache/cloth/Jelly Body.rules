@@ -1,0 +1,8 @@
+{
+  "category": "Body",
+  "parts": [ "body" ],
+  "specialTexture": "minecraft:playerskin",
+  "hideParts": [ "body", "jacket" ],
+  "hideArmor": [ "chest" ],
+  "ignoreParts": [ "body", "jacket", "left_sleeve", "left_arm", "right_sleeve", "right_arm", "head", "hat", "left_leg", "left_pants", "right_leg", "right_pants" ]
+}

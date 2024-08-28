@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.4.0 commit date:2022-12-06, commit time:18:46, hash:a95bf1ac01be</authoring_tool>
+    </contributor>
+    <created>2023-02-17T01:54:32</created>
+    <modified>2023-02-17T01:54:32</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Ninja_Headband-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="Ninja_Headband-material" name="Ninja Headband">
+      <instance_effect url="#Ninja_Headband-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Ninja_Headband-mesh" name="Ninja Headband">
+      <mesh>
+        <source id="Ninja_Headband-mesh-positions">
+          <float_array id="Ninja_Headband-mesh-positions-array" count="120">-0.2890817 -0.3513413 -0.2890817 -0.2890817 -0.4390617 -0.2890817 -0.2890817 -0.3513413 0.2890817 -0.2890817 -0.4390617 0.2890817 0.2890817 -0.3513413 -0.2890817 0.2890817 -0.4390617 -0.2890817 0.2890817 -0.3513413 0.2890817 0.2890817 -0.4390617 0.2890817 -0.02164119 -0.3470484 0.2737591 -0.02164119 -0.3903309 0.2737591 -0.02164119 -0.3470484 0.3170416 -0.02164119 -0.3903309 0.3170416 0.02164119 -0.3470484 0.2737591 0.02164119 -0.3903309 0.2737591 0.02164119 -0.3470484 0.3170416 0.02164119 -0.3903309 0.3170416 -0.006367385 -0.363978 0.3100979 0.01144647 -0.363978 0.2927349 0.05088394 -0.3075226 0.3939589 0.09381252 -0.3075226 0.3521168 0.1224078 -0.222185 0.4376446 0.165481 -0.222185 0.3956617 -0.01953256 -0.3625506 0.283874 3.08471e-5 -0.3639109 0.3049692 -0.09017568 -0.2920722 0.3678447 -0.04706609 -0.2957067 0.4128217 -0.1320545 -0.1926442 0.453667 -0.09030014 -0.1926442 0.495082 0.1815103 -0.09264123 0.4184622 0.2245835 -0.09264123 0.3764792 0.2012302 0.1058798 0.3811179 0.2443034 0.1058798 0.3391349 0.2216328 0.2976713 0.3387306 0.2528176 0.2976713 0.3083351 -0.1866264 -0.02684003 0.4390236 -0.1448721 -0.02684003 0.4804387 -0.2139396 0.1588609 0.4154374 -0.1721852 0.1588609 0.4568524 -0.2190638 0.3180332 0.3913336 -0.1773095 0.3180332 0.4327487</float_array>
+          <technique_common>
+            <accessor source="#Ninja_Headband-mesh-positions-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ninja_Headband-mesh-normals">
+          <float_array id="Ninja_Headband-mesh-normals-array" count="120">-0.5773503 0.5773503 -0.5773503 -0.5773503 -0.5773503 -0.5773503 -0.5773503 -0.5773503 0.5773503 -0.5773503 0.5773503 0.5773503 0.5773503 -0.5773503 0.5773503 0.5773503 0.5773503 0.5773503 0.5773503 -0.5773503 -0.5773503 0.5773503 0.5773503 -0.5773503 -0.5773503 0.5773503 -0.5773503 -0.5773503 -0.5773503 -0.5773503 -0.5773503 -0.5773503 0.5773503 -0.5773503 0.5773503 0.5773503 0.5773503 -0.5773503 0.5773503 0.5773503 0.5773503 0.5773503 0.5773503 -0.5773503 -0.5773503 0.5773503 0.5773503 -0.5773503 0.3431064 -0.8708404 0.3520158 0.3431064 -0.8708404 0.3520158 0.437516 -0.7791593 0.4488769 0.4284113 -0.789476 0.4395357 0.6324766 -0.4229679 0.6489003 0.598532 -0.5144634 0.6140741 -0.4276194 -0.8366125 0.3423761 -0.4276194 -0.8366125 0.342376 -0.5038004 -0.7399414 0.4457263 -0.4886707 -0.762131 0.4246852 -0.6446577 -0.43673 0.6274421 -0.6483063 -0.424319 0.6321807 0.6973121 -0.0439462 0.7154192 0.6947245 -0.09656429 0.7127646 0.6959941 0.07550489 0.7140667 0.6961131 0.07322001 0.7141887 0.6955363 0.08371973 0.7135968 0.6955363 0.08371973 0.7135967 -0.7005712 -0.1016175 0.7063101 -0.7020528 -0.07833236 0.7078037 -0.7038843 0.03072005 0.7096501 -0.703633 0.04070568 0.7093968 -0.7016956 0.08453929 0.7074436 -0.7016955 0.08453929 0.7074437</float_array>
+          <technique_common>
+            <accessor source="#Ninja_Headband-mesh-normals-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ninja_Headband-mesh-map-0">
+          <float_array id="Ninja_Headband-mesh-map-0-array" count="176">0.375 0 0.625 0 0.625 0.25 0.375 0.25 0.375 0.25 0.625 0.25 0.625 0.5 0.375 0.5 0.375 0.5 0.625 0.5 0.625 0.75 0.375 0.75 0.375 0.75 0.625 0.75 0.625 1 0.375 1 0.125 0.5 0.375 0.5 0.375 0.75 0.125 0.75 0.625 0.5 0.875 0.5 0.875 0.75 0.625 0.75 0.375 0 0.625 0 0.625 0.25 0.375 0.25 0.375 0.25 0.625 0.25 0.625 0.5 0.375 0.5 0.375 0.5 0.625 0.5 0.625 0.75 0.375 0.75 0.375 0.75 0.625 0.75 0.625 1 0.375 1 0.125 0.5 0.375 0.5 0.375 0.75 0.125 0.75 0.625 0.5 0.875 0.5 0.875 0.75 0.625 0.75 0.9178904 0 0.994165 0.00138837 1 0.2064107 0.9045981 0.2046743 0.9045981 0.2046743 1 0.2064107 1 0.4864795 0.9376125 0.4853439 0.9045981 0.5804311 0.8264903 0.5820843 0.8151139 0.3374955 0.9045981 0.3323425 0.9045981 0.3323425 0.8151139 0.3374955 0.831147 0 0.89665 0.006743788 0.9376125 0.4853439 1 0.4864795 1 0.4864795 0.9376125 0.4853439 0.9376125 0.4853439 1 0.4864795 1 0.4864795 0.9376125 0.4853439 0.9376125 0.4853439 1 0.4864795 1 0.4864795 0.9376125 0.4853439 0.89665 0.006743788 0.831147 0 0.831147 0 0.89665 0.006743788 0.89665 0.006743788 0.831147 0 0.831147 0 0.89665 0.006743788 0.89665 0.006743788 0.831147 0 0.831147 0 0.89665 0.006743788</float_array>
+          <technique_common>
+            <accessor source="#Ninja_Headband-mesh-map-0-array" count="88" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ninja_Headband-mesh-colors-Col" name="Col">
+          <float_array id="Ninja_Headband-mesh-colors-Col-array" count="352">0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Ninja_Headband-mesh-colors-Col-array" count="88" stride="4">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+              <param name="A" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ninja_Headband-mesh-vertices">
+          <input semantic="POSITION" source="#Ninja_Headband-mesh-positions"/>
+        </vertices>
+        <polylist material="Ninja_Headband-material" count="22">
+          <input semantic="VERTEX" source="#Ninja_Headband-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Ninja_Headband-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Ninja_Headband-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#Ninja_Headband-mesh-colors-Col" offset="3" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 0 0 1 1 1 1 3 2 2 2 2 3 3 3 2 3 4 4 3 2 5 5 7 4 6 6 6 5 7 7 6 5 8 8 7 4 9 9 5 6 10 10 4 7 11 11 4 7 12 12 5 6 13 13 1 1 14 14 0 0 15 15 2 3 16 16 6 5 17 17 4 7 18 18 0 0 19 19 7 4 20 20 3 2 21 21 1 1 22 22 5 6 23 23 8 8 24 24 9 9 25 25 11 10 26 26 10 11 27 27 10 11 28 28 11 10 29 29 15 12 30 30 14 13 31 31 14 13 32 32 15 12 33 33 13 14 34 34 12 15 35 35 12 15 36 36 13 14 37 37 9 9 38 38 8 8 39 39 10 11 40 40 14 13 41 41 12 15 42 42 8 8 43 43 15 12 44 44 11 10 45 45 9 9 46 46 13 14 47 47 16 16 48 48 17 17 49 49 19 18 50 50 18 19 51 51 18 19 52 52 19 18 53 53 21 20 54 54 20 21 55 55 22 22 56 56 23 23 57 57 25 24 58 58 24 25 59 59 24 25 60 60 25 24 61 61 27 26 62 62 26 27 63 63 20 21 64 64 21 20 65 65 29 28 66 66 28 29 67 67 28 29 68 68 29 28 69 69 31 30 70 70 30 31 71 71 30 31 72 72 31 30 73 73 33 32 74 74 32 33 75 75 26 27 76 76 27 26 77 77 35 34 78 78 34 35 79 79 34 35 80 80 35 34 81 81 37 36 82 82 36 37 83 83 36 37 84 84 37 36 85 85 39 38 86 86 38 39 87 87</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Ninja_Headband" name="Ninja Headband" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Ninja_Headband-mesh" name="Ninja Headband">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Ninja_Headband-material" target="#Ninja_Headband-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

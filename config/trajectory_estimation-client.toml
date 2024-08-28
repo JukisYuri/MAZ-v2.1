@@ -1,0 +1,349 @@
+
+[general]
+	#Default enable for rendering trajectory prediction.
+	"Render Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound" = true
+	#Enable for cube shape trajectory.
+	"Cube Trajectory" = true
+	#Enable for line shape trajectory.
+	"Line Trajectory" = false
+	#Set cube color R.
+	#Range: 0 ~ 255
+	"Cube Color R" = 255
+	#Set cube color G.
+	#Range: 0 ~ 255
+	"Cube Color G" = 255
+	#Set cube color B.
+	#Range: 0 ~ 255
+	"Cube Color B" = 255
+	#Set cube color A.
+	#Range: 0 ~ 255
+	"Cube Color A" = 40
+	#Set cube size.
+	#Range: 0.0 ~ 10.0
+	"Cube Size" = 0.1
+	#Set line color R.
+	#Range: 0 ~ 255
+	"Line Color R" = 255
+	#Set line color G.
+	#Range: 0 ~ 255
+	"Line Color G" = 255
+	#Set line color B.
+	#Range: 0 ~ 255
+	"Line Color B" = 255
+	#Set line color A.
+	#Range: 0 ~ 255
+	"Line Color A" = 255
+	#Set line size.
+	#Range: 1.0 ~ 10.0
+	"Line Width" = 4.0
+
+[vanilla]
+	#Default enable for rendering Bow trajectory prediction.
+	"Render Bow Trajectory" = true
+	#Default enable for rendering Crossbow trajectory prediction.
+	"Render Crossbow Trajectory" = true
+	#Default enable for rendering Trident trajectory prediction.
+	"Render Trident Trajectory" = true
+	#Default enable for rendering SplashBottle trajectory prediction.
+	"Render SplashBottle Trajectory" = true
+	#Default enable for rendering ExperienceBottle trajectory prediction.
+	"Render ExperienceBottle Trajectory" = true
+	#Default enable for rendering Egg trajectory prediction.
+	"Render Egg Trajectory" = true
+	#Default enable for rendering Snowball trajectory prediction.
+	"Render Snowball Trajectory" = true
+	#Default enable for rendering Enderpearl trajectory prediction.
+	"Render Enderpearl Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Bow" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Crossbow" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Trident" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound SplashBottle" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ExperienceBottle" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Egg" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Snowball" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Enderpearl" = true
+
+[cgm]
+	#Default enable for rendering CGM_Grenade trajectory prediction.
+	"Render CGM_Grenade Trajectory" = true
+	#Default enable for rendering CGM_StunGrenade trajectory prediction.
+	"Render CGM_StunGrenade Trajectory" = true
+	#Default enable for rendering CGM_Gun trajectory prediction.
+	"Render CGM_Gun Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound CGM_Grenade" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound CGM_StunGrenade" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound CGM_Gun" = true
+
+[cataclysm]
+	#Default enable for rendering Cataclysm_VoidAssaultShoulder trajectory prediction.
+	"Render Cataclysm_VoidAssaultShoulder Trajectory" = true
+	#Default enable for rendering Cataclysm_WitherAssaultShoulder trajectory prediction.
+	"Render Cataclysm_WitherAssaultShoulder Trajectory" = true
+	#Default enable for rendering Cataclysm_CoralSpear trajectory prediction.
+	"Render Cataclysm_CoralSpear Trajectory" = true
+	#Default enable for rendering Cataclysm_CoralBardiche trajectory prediction.
+	"Render Cataclysm_CoralBardiche Trajectory" = true
+	#Default enable for rendering Cataclysm_LaserGatling trajectory prediction.
+	"Render Cataclysm_LaserGatling Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Cataclysm_VoidAssaultShoulder" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Cataclysm_WitherAssaultShoulder" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Cataclysm_CoralSpear" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Cataclysm_CoralBardiche" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Cataclysm_LaserGatling" = true
+
+[iceandfire]
+	#Default enable for rendering IceAndFire_TideTrident trajectory prediction.
+	"Render IceAndFire_TideTrident Trajectory" = true
+	#Default enable for rendering IceAndFire_LichStaff trajectory prediction.
+	"Render IceAndFire_LichStaff Trajectory" = true
+	#Default enable for rendering IceAndFire_DragonBow trajectory prediction.
+	"Render IceAndFire_DragonBow Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound IceAndFire_TideTrident" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound IceAndFire_LichStaff" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound IceAndFire_DragonBow" = true
+
+[blue_skies]
+	#Default enable for rendering BlueSkies_SpearItem trajectory prediction.
+	"Render BlueSkies_SpearItem Trajectory" = true
+	#Default enable for rendering BlueSkies_VenomSacItem trajectory prediction.
+	"Render BlueSkies_VenomSacItem Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound BlueSkies_SpearItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound BlueSkies_VenomSacItem" = true
+
+[twilightforest]
+	#Default enable for rendering TwilightForest_IceBowItem trajectory prediction.
+	"Render TwilightForest_IceBowItem" = true
+	#Default enable for rendering TwilightForest_TripleBowItem trajectory prediction.
+	"Render TwilightForest_TripleBowItem Trajectory" = true
+	#Default enable for rendering TwilightForest_EnderBowItem trajectory prediction.
+	"Render TwilightForest_EnderBowItem Trajectory" = true
+	#Default enable for rendering TwilightForest_SeekerBowItem trajectory prediction.
+	"Render TwilightForest_SeekerBowItem Trajectory" = true
+	#Default enable for rendering TwilightForest_TwilightWandItem trajectory prediction.
+	"Render TwilightForest_TwilightWandItem Trajectory" = true
+	#Default enable for rendering TwilightForest_IceBombItem trajectory prediction.
+	"Render TwilightForest_IceBombItem Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TwilightForest_IceBowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target TwilightForest_TripleBowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TwilightForest_EnderBowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TwilightForest_SeekerBowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TwilightForest_TwilightWandItem " = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TwilightForest_IceBombItem" = true
+
+[immersiveengineering]
+	#Default enable for rendering ImmersiveEngineering_RailgunItem trajectory prediction.
+	"Render ImmersiveEngineering_RailgunItem Trajectory" = true
+	#Default enable for rendering ImmersiveEngineering_RevolverItem trajectory prediction.
+	"Render ImmersiveEngineering_RevolverItem Trajectory" = true
+	#Default enable for rendering ImmersiveEngineering_ChemthrowerItem trajectory prediction.
+	"Render ImmersiveEngineering_ChemthrowerItem Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ImmersiveEngineering_RailgunItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ImmersiveEngineerings_RevolverItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ImmersiveEngineerings_ChemthrowerItem" = true
+
+[alexscaves]
+	#Default enable for rendering  AlexCaves_LimestoneSpearItem trajectory prediction.
+	"Render AlexCaves_LimestoneSpearItem Trajectory" = true
+	#Default enable for rendering  AlexCaves_ExtinctionSpearItem trajectory prediction.
+	"Render AlexCaves_ExtinctionSpearItem Trajectory" = true
+	#Default enable for rendering  AlexCaves_DreadbowItem trajectory prediction.
+	"Render AlexCaves_DreadbowItem Trajectory" = true
+	#Default enable for rendering  AlexCaves_SeaStaffItem trajectory prediction.
+	"Render AlexCaves_SeaStaffItem Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AlexCaves_LimestoneSpearItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AlexCaves_ExtinctionSpearItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AlexCaves_DreadbowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AlexCaves_SeaStaffItem" = true
+
+[the_bumblezone]
+	#Default enable for rendering TheBumblezone_StingerSpearItem trajectory prediction.
+	"Render TheBumblezone_StingerSpearItem Trajectory" = true
+	#Default enable for rendering TheBumblezone_CrystalCannonItem trajectory prediction.
+	"Render TheBumblezone_CrystalCannonItem Trajectory" = true
+	#Default enable for rendering TheBumblezone_PollenPuff trajectory prediction.
+	"Render TheBumblezone_PollenPuff Trajectory" = true
+	#Default enable for rendering TheBumblezone_DirtPellet trajectory prediction.
+	"Render TheBumblezone_DirtPellet Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TheBumblezone_StingerSpearItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TheBumblezone_CrystalCannonItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TheBumblezone_PollenPuff" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TheBumblezone_DirtPellet" = true
+
+[aether]
+	#Default enable for rendering TheAether_PhoenixBowItem trajectory prediction.
+	"Render TheAether_PhoenixBowItem Trajectory" = true
+	#Default enable for rendering TheAether_HammerOfKingbdogzItem trajectory prediction.
+	"Render TheAether_HammerOfKingbdogzItem Trajectory" = true
+	#Default enable for rendering TheAether_LightningKnifeItem trajectory prediction.
+	"Render TheAether_LightningKnifeItem Trajectory" = true
+	#Default enable for rendering TheAether_DartShooterItem trajectory prediction.
+	"Render TheAether_DartShooterItem Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TheAether_PhoenixBowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TheAether_HammerOfKingbdogzItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TheAether_LightningKnifeItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound TheAether_DartShooterItem" = true
+
+[alexsmobs]
+	#Default enable for rendering AlexsMobs_ItemPocketSand trajectory prediction.
+	"Render AlexsMobs_ItemPocketSand Trajectory" = true
+	#Default enable for rendering AlexsMobs_ItemHemolymphBlaster trajectory prediction.
+	"Render AlexsMobs_ItemHemolymphBlaster Trajectory" = true
+	#Default enable for rendering AlexsMobs_ItemBloodSprayer trajectory prediction.
+	"Render AlexsMobs_ItemBloodSprayer Trajectory" = true
+	#Default enable for rendering AlexsMobs_ItemStinkRay trajectory prediction.
+	"Render AlexsMobs_ItemStinkRay Trajectory" = true
+	#Default enable for rendering AlexsMobs_ItemVineLasso trajectory prediction.
+	"Render AlexsMobs_ItemVineLasso Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AlexsMobs_ItemPocketSand" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AlexsMobs_ItemHemolymphBlaster" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AlexsMobs_ItemBloodSprayer" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AlexsMobs_ItemStinkRay" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AlexsMobs_ItemVineLasso" = true
+
+[vampirism]
+	#Default enable for rendering Vampirism_SingleCrossbowItem trajectory prediction.
+	"Render Vampirism_SingleCrossbowItem Trajectory" = true
+	#Default enable for rendering Vampirism_TechCrossbowItem trajectory prediction.
+	"Render Vampirism_TechCrossbowItem Trajectory" = true
+	#Default enable for rendering Vampirism_DoubleCrossbowItem trajectory prediction.
+	"Render Vampirism_DoubleCrossbowItem Trajectory" = true
+	#Default enable for rendering Vampirism_HolyWaterSplashBottleItem trajectory prediction.
+	"Render Vampirism_HolyWaterSplashBottleItem Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Vampirism_SingleCrossbowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Vampirism_TechCrossbowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Vampirism_DoubleCrossbowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound Vampirism_HolyWaterSplashBottleItem" = true
+
+[l2weaponry]
+	#Default enable for rendering L2Weaponry_JavelinItem trajectory prediction.
+	"Render L2Weaponry_JavelinItem Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound L2Weaponry_JavelinItem" = true
+
+[l2archery]
+	#Default enable for rendering L2Archery_GenericBowItem trajectory prediction.
+	"Render L2Archery_GenericBowItem Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound L2Archery_GenericBowItem" = true
+
+[aoa3]
+	#Default enable for rendering AdventOfAscension3_BaseBow trajectory prediction.
+	"Render AdventOfAscension3_BaseBow Trajectory" = true
+	#Default enable for rendering AdventOfAscension3_BaseCrossbow trajectory prediction.
+	"Render AdventOfAscension3_BaseCrossbow Trajectory" = true
+	#Default enable for rendering AdventOfAscension3_BaseStaff trajectory prediction.
+	"Render AdventOfAscension3_BaseStaff Trajectory" = true
+	#Default enable for rendering AdventOfAscension3_BaseGun trajectory prediction.
+	"Render AdventOfAscension3_BaseGun Trajectory" = true
+	#Default enable for rendering AdventOfAscension3_BaseBlaster trajectory prediction.
+	"Render AdventOfAscension3_BaseBlaster Trajectory" = true
+	#Default enable for rendering AdventOfAscension3_BaseSniper trajectory prediction.
+	"Render AdventOfAscension3_BaseSniper Trajectory" = true
+	#Default enable for rendering AdventOfAscension3_BaseShotgun trajectory prediction.
+	"Render AdventOfAscension3_BaseShotgun Trajectory" = true
+	#Default enable for rendering AdventOfAscension3_BaseCannon trajectory prediction.
+	"Render AdventOfAscension3_BaseCannon Trajectory" = true
+	#Default enable for rendering AdventOfAscension3_BaseThrownWeapon trajectory prediction.
+	"Render AdventOfAscension3_BaseThrownWeapon Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AdventOfAscension3_BaseBow" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AdventOfAscension3_BaseCrossbow" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AdventOfAscension3_BaseStaff" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AdventOfAscension3_BaseGun" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AdventOfAscension3_BaseBlaster" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AdventOfAscension3_BaseSniper" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AdventOfAscension3_BaseShotgun" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AdventOfAscension3_BaseCannon" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound AdventOfAscension3_BaseThrownWeapon" = true
+
+[archbows]
+	#Default enable for rendering ArchBows_FlatBowItem trajectory prediction.
+	"Render ArchBows_FlatBowItem Trajectory" = true
+	#Default enable for rendering ArchBows_LongBowItem trajectory prediction.
+	"Render ArchBows_LongBowItem Trajectory" = true
+	#Default enable for rendering ArchBows_RecurveBowItem trajectory prediction.
+	"Render ArchBows_RecurveBowItem Trajectory" = true
+	#Default enable for rendering ArchBows_ShortBowItem trajectory prediction.
+	"Render ArchBows_ShortBowItem Trajectory" = true
+	#Default enable for rendering ArchBows_ArbalestItem trajectory prediction.
+	"Render ArchBows_ArbalestItem Trajectory" = true
+	#Default enable for rendering ArchBows_HeavyCrossbowItem trajectory prediction.
+	"Render ArchBows_HeavyCrossbowItem Trajectory" = true
+	#Default enable for rendering ArchBows_PistolCrossbowItem trajectory prediction.
+	"Render ArchBows_PistolCrossbowItem Trajectory" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ArchBows_FlatBowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ArchBows_LongBowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ArchBows_RecurveBowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ArchBows_ShortBowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ArchBows_ArbalestItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ArchBows_HeavyCrossbowItem" = true
+	#If the current trajectory can hit target, play "Ding" sound to remind player.
+	"Target Hit Sound ArchBows_PistolCrossbowItem" = true
+

@@ -1,0 +1,32 @@
+
+["Skill Cooldown"]
+	#the cooldown ticks of Rain Screen skill
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	rain_screen_cooldown = 862.0
+	#the cooldown ticks of Rain Cutter skill
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	rain_cutter_cooldown = 816.0
+	#the cooldown ticks of Yaksha's Mask skill
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	yaksha_mask_cooldown = 749.0
+	#the cooldown ticks of Stellar Restoration skill
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	stellar_restoration_cooldown = 312.0
+
+["Sword Soaring"]
+	enable_inertia = true
+	#the inertia end.(delay time) only work when enable_inertia is true. Shouldn't larger than 100!!!
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	inertia_tick_before = 10.0
+	#the ratio of flying speed to view vector
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	fly_speed_scale = 0.6
+	#the stamina consumed per end when flying
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	stamina_consume_per_tick = 0.05
+	#ticks of end taking off
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max_anticipation_tick = 10.0
+	#A list of items considered as sword.
+	items = ["minecraft:iron_ingot"]
+

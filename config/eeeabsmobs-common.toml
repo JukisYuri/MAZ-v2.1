@@ -1,0 +1,110 @@
+
+[Mobs]
+
+	[Mobs."Immortal Mobs"]
+
+		[Mobs."Immortal Mobs"."Immortal Skeleton"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+
+		[Mobs."Immortal Mobs"."Immortal Knight"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+
+		[Mobs."Immortal Mobs"."Immortal Shaman"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+			#Set damage cap percentage (based on max health)
+			#Range: 0.01 ~ 1.0
+			"Damage cap percentage" = 0.20000000298023224
+			#Immortal Shaman heal values (based on max health percentage)
+			#Range: 0.0 ~ 1.0
+			"Heal percentage" = 0.5
+
+		[Mobs."Immortal Mobs"."Immortal Golem"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+
+		[Mobs."Immortal Mobs"."Immortal Boss"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+
+	[Mobs."Nameless Guardian"]
+		#If 'False' disable non-combat heal
+		"Enable non-combat heal" = true
+		#Max life steal coefficient (based on max health percentage)
+		#Range: 0.0 ~ 1.0
+		"Suck blood factor" = 0.05
+		#Challenge mode!
+		"Be careful! It's going to get tricky!" = false
+		#Set this mob health multiplier
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Health multiplier" = 1.0
+		#Set this mob attack multiplier
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Attack multiplier" = 1.0
+		#Set damage cap percentage (based on max health)
+		#Range: 0.01 ~ 1.0
+		"Damage cap percentage" = 0.05000000074505806
+
+	[Mobs."Corpse Mobs"]
+
+		[Mobs."Corpse Mobs"."Corpse & Corpse Villager"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+			#If 'False', it will not be converted to corpse
+			"Converted to corpse" = true
+
+		[Mobs."Corpse Mobs"."Corpse Warlock"]
+			#Set this mob health multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Health multiplier" = 1.0
+			#Set this mob attack multiplier
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Attack multiplier" = 1.0
+			#Set damage cap percentage (based on max health)
+			#Range: 0.01 ~ 1.0
+			"Damage cap percentage" = 0.25
+
+["Experimental Entity"]
+
+	["Experimental Entity"."Guardian Laser"]
+		#If 'False' disable scorch generate on the ground
+		"Enable scorch generate" = true
+
+[Other]
+	#If 'False' disable camera shake
+	"Enable camera shake" = true
+	#If 'False' disable bosses blood bars
+	"Enable bosses blood bars" = true
+	#If 'False' able inflict damage between mobs of the same type
+	"Mobs of the same type cannot cause harm" = true
+	#If 'False' disable falling block rendering
+	"Enable falling block rendering" = true
+	#If 'False' disable play boss music
+	"Enable play boss music" = true
+

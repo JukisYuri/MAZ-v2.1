@@ -1,0 +1,8 @@
+{
+  "category": "Special",
+  "parts": [ "head" ],
+  "breaks": [ "all" ],
+  "ignoreParts": [ "left_sleeve", "right_sleeve", "right_arm", "left_arm", "head", "hat", "body", "jacket", "left_leg", "left_pants", "right_leg", "right_pants" ],
+  "hideArmor": [ "feet", "chest", "legs", "head" ],
+  "hideParts": [ "left_sleeve", "right_sleeve", "right_arm", "left_arm", "head", "hat", "body", "jacket", "left_leg", "left_pants", "right_leg", "right_pants" ]
+}
